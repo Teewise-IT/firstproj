@@ -3,6 +3,7 @@ import Body from "../Components/Body";
 import Nav from "../Components/Nav";
 import Counter from "../Components/Counter";
 import Product from "../Components/Product";
+import Form from "../Components/Form";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <Body />
         <Product />
         <Counter />
+        <Form />
     </div>
   );
 }
